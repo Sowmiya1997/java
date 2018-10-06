@@ -4,20 +4,20 @@ public class Main
 {
     public static void main(String []s)
     {
-        int num;
+        int n;
         
         Scanner sc=new Scanner(System.in);
          
-        System.out.print("Enter any integer number: ");
+        
         num=sc.nextInt();
          
         
-        if(num>0)
-            System.out.println(num + " is POSITIVE NUMBER.");
-        else if(num<0)
-            System.out.println(num + " is NEGATIVE NUMBER.");
+        if(n>0)
+            System.out.println( " POSITIVE NUMBER");
+        else if(n<0)
+            System.out.println( " NEGATIVE NUMBER");
         else
-            System.out.println("IT's ZERO.");
+            System.out.println("ZERO");
          
     }
 }
